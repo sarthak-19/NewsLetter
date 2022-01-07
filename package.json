@@ -1,0 +1,19 @@
+{
+  "name": "10.-newsletter",
+  "version": "1.0.0",
+  "description": "This is a newsletter web app to be deployed on heroku build using mailchimp api and node with express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthak-19/NewsLetter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarthak-19/NewsLetter/issues"
+  },
+  "homepage": "https://github.com/sarthak-19/NewsLetter#readme"
+}
