@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/sarthak-19/NewsLetter/issues"
   },
-  "homepage": "https://github.com/sarthak-19/NewsLetter#readme"
+  "homepage": "https://github.com/sarthak-19/NewsLetter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "request": "^2.88.2"
+  }
 }
