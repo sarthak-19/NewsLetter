@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + "/signup.html")
 })
 
-app.post('/', function (req, res) 
+app.post('/', function (req, res)
 {
     var fname = req.body.firstName;
     var lname = req.body.lastName;
@@ -64,7 +64,7 @@ app.post("/failure",function(req,res){
     res.redirect("/");
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
     console.log('Listening on 3000')
 });
 
