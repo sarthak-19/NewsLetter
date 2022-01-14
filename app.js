@@ -38,7 +38,7 @@ app.post('/', function (req, res)
     const url = "https://us20.api.mailchimp.com/3.0/lists/5a7aaf2b25"
     const options = {
         method: "POST",
-        auth: "sarthak-19:XX43125e2be0837d7afc0e8b7478adfe0f-us20"
+        auth: "sarthak-19:43125e2be0837d7afc0e8b7478adfe0f-us20"
     }
     const request = https.request(url, options, function (response) 
     {   
@@ -69,7 +69,7 @@ app.listen(process.env.PORT || 3000, function () {
 });
 
 //api key
-// 43125e2be0837d7afc0e8b7478adfe0f-us20
+//
 
 // list id
 // 5a7aaf2b25
